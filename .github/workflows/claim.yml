@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '42 16 * * 4'
+    - cron:  '0 */12 * * *'
 
 jobs:
   Claim:
